@@ -8,6 +8,9 @@ env:
     - secure: "MhHwh3hR6wQglMD44TgvxaEqRQl+skfno7RzGoEZdZ1zitnjjdcArxZdlRl6q4FNVGkPwEQlVtC7KhhCk6X0GBXd0+1MOK4MTOZ8WUypqln43+RsLM5Hk+UF4tB/LeXvOEsxxdC82QttUDrKeJI6seZxS8VWplO3UtewcdZWcOY="
     - secure: "SlWVF+oOx/KzE3vT/pMKJOJYxbn+M+f8ygvcrnLHAJ4uMolnJmzSBeRec/QgoTjpibOQ6MhQRqydMW5n7Tuk5wS2ikEop5DTve8t1r/NZ36f+LOk+RAU3z+g08zkfUEP6/t5yEbCWtTeDRfuNY0x7Xkqsu9lMSUSCAMByfqh5RQ="
 
+services:
+  - mongodb
+
 before_install:
   - git submodule update --init --recursive
 
